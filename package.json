@@ -15,7 +15,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build && layer0 build",
+    "deploy": "layer0 deploy --team=mykola-mandziak-gf --site=react-movies --environment=production"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +36,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@layer0/cli": "^4.15.6",
+    "@layer0/core": "^4.15.6",
+    "@layer0/devtools": "^4.15.6",
+    "@layer0/prefetch": "^4.15.6"
   }
 }
