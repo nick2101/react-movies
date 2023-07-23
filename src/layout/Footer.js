@@ -9,9 +9,9 @@ function Footer() {
         <div className="col l4 offset-l2 s12">
           <h5 className="white-text">Other Projects</h5>
           <ul>
-            <li><a className="grey-text text-lighten-3" href="/src/layout/Footer" target="_blank">React Movies</a></li>
-            <li><a className="grey-text text-lighten-3" href="/src/layout/Footer" target="_blank">React Shop</a></li>
-            <li><a className="grey-text text-lighten-3" href="/src/layout/Footer" target="_blank">React Food</a></li>
+            <li><a className="grey-text text-lighten-3" href="/react-movies/" target="_blank">React Movies</a></li>
+            <li><a className="grey-text text-lighten-3" href="/react-shop/" target="_blank">React Shop</a></li>
+            <li><a className="grey-text text-lighten-3" href="/react-food/" target="_blank">React Food</a></li>
           </ul>
         </div>
       </div>
